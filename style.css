@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;       
+}
+
+main .flexcontainer{    
+    width: 98vh;
+    height: 500px; 
+    margin: 0 auto;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;       
+}
+
+.flexcontainer img{
+    position: absolute;
+    margin-top: 2.938rem;
+    margin-left: 2.938rem;
+}
+
+/*=========================================*/
+.flexcontainer .sedans{
+    width: 33.33%;
+    height: 100%;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.flexcontainer .sedans .container{    
+    margin-top:8rem;
+}
+
+.flexcontainer .sedans .container .item{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 2.188rem;
+    margin-left: 2.938rem;
+    color: hsl(0, 0%, 95%);
+}
+/*=========================================*/
+.flexcontainer .suvs{
+    width: 33.33%;
+    height: 100%;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.flexcontainer .suvs .container{    
+    margin-top:8rem;
+}
+
+.flexcontainer .suvs .container .item{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 2.188rem;
+    margin-left: 2.938rem;
+    color: hsl(0, 0%, 95%);
+}
+/*=========================================*/
+.flexcontainer .luxury{
+    width: 33.33%;
+    height: 100%;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.flexcontainer .luxury .container{    
+    margin-top:8rem;
+}
+
+.flexcontainer .luxury .container .item{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 2.188rem;
+    margin-left: 2.938rem;
+    color: hsl(0, 0%, 95%);
+}
+/*=========================================*/
+
+.flexcontainer .text{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-top: 2.5rem;
+    margin-left: 2.938rem;
+    margin-right: 3.070rem;
+    font-size: 0.75rem;
+    line-height: 1.6;
+}
+/*=======BTN=========*/
+.flexcontainer .btna{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 0.8rem;
+    margin-left: 2.938rem;
+    margin-top: 5.450rem;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;    
+}
+
+.btna a{
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+/*=======BTN=========*/
+
+.flexcontainer .btnb{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 0.8rem;
+    margin-left: 2.938rem;
+    margin-top: 5.450rem;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;    
+}
+
+.btnb a{
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+/*=======BTN=========*/
+.flexcontainer .btnc{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 0.8rem;
+    margin-left: 2.938rem;
+    margin-top: 5.450rem;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;    
+}
+
+.btnc a{
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
